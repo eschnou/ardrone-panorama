@@ -1,0 +1,7 @@
+#!/usr/bin/env node
+
+var panorama = require('../lib/panorama');
+
+panorama.go(3);
+
+

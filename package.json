@@ -1,0 +1,30 @@
+{
+  "name": "ardrone-panorama",
+  "version": "0.1.0",
+  "description": "Automated 360° Panorama with ARDrone 2.0.",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:eschnou/ardrone-panorama.git"
+  },
+  "keywords": [
+    "drone",
+    "ardrone",
+    "nodecopter",
+    "parrot",
+    "autonomous",
+    "photo",
+    "picture",
+    "panorama"
+  ],
+  "dependencies": {
+    "dateformat" : "1.0.x",
+    "ardrone-autonomy": "0.1.x",
+    "ar-drone": "0.1.0"
+  },
+  "bin": {
+    "panorama": "./bin/panorama"
+  },
+  "main": "./lib/panorama",
+  "author": "Laurent Eschenauer <laurent@eschenauer.be>",
+  "license": "MIT"
+}
