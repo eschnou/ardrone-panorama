@@ -29,6 +29,12 @@ cd ardrone-panorama
 npm install
 ```
 
+## ToDo
+
+- Customize number of pictures taken with command line arguments
+- Automaticaly stich the pictures to create the panorama
+- Improve stabilization, waiting for no roll/pitch before taking picture
+
 ## License
 
 The MIT License
