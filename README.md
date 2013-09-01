@@ -1,16 +1,22 @@
 # ardrone-panorama
 
+Capture your world like never before!
+
 Autonomously fly a ARDrone 2.0 to desired altitude and rotate the drone
 to take a sequence of 8 pictures at 45° intervals to form a 360° panoramic
-view.
-
-Capture your world like never before!
+view. 
 
 ## Usage
 
-Specify the panorama altitude (in meters) with the `-h` argument.
+Specify the panorama altitude (in meters) with the `-h` argument. The rotation
+is currently fixed to 45°, but it should be changed to a custom setting in the
+future.
 
 `./bin/panorama -h 3`
+
+If you place the 'oriented roundel' tag (that you have received with your drone) 
+on the floor, the drone will attempt to maintain itself over the tag and land back
+on the tag. 
 
 ## Install
 
