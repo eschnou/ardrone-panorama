@@ -8,11 +8,20 @@ Capture your world like never before!
 
 ## Usage
 
-TODO
+Specify the panorama altitude (in meters) with the `-h` argument.
+
+`./bin/panorama -h 3`
 
 ## Install
 
-TODO
+Panorama requires a recent nodejs (built and tested with node > 0.10) as well as
+[npm](https://npmjs.org/) for dependency management.
+
+```
+git clone https://github.com/eschnou/ardrone-panorama.git
+cd ardrone-panorama
+npm install
+```
 
 ## License
 

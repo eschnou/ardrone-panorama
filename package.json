@@ -19,7 +19,7 @@
   "dependencies": {
     "dateformat" : "1.0.x",
     "ardrone-autonomy": "0.1.x",
-    "ar-drone": "0.1.x",
+    "ar-drone": "0.2.x",
     "optimist": "0.6.x"
   },
   "bin": {
